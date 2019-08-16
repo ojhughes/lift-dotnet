@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ohughes/workspace/scratch/lift-dotnet/lift-dotnet.csproj",
+    "projectName": "lift-dotnet",
+    "projectPath": "/Users/ohughes/workspace/scratch/lift-dotnet/lift-dotnet.csproj",
+    "outputPath": "/Users/ohughes/workspace/scratch/lift-dotnet/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "ConsoleTables": {
+          "target": "Package",
+          "version": "[2.3.0, )"
+        },
+        "Microsoft.Extensions.CommandLineUtils": {
+          "target": "Package",
+          "version": "[1.1.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  },
+  "runtimes": {
+    "win-x64": {
+      "#import": []
+    }
+  }
+}
